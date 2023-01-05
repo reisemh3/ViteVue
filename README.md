@@ -32,7 +32,7 @@ Ce qui vous donnera :<br>
     <b>link rel="stylesheet" href="style.css"</b>
 <br>
 <br>
-Pour commencer dans votre fichier CSS, vous aurez des selecteurs qui vont contenir dans des acolades, des propriétées et des valeurs.
+Pour commencer dans votre fichier CSS, vous aurez des selecteurs qui vont contenir dans des acolades, des propriétées et des valeurs.<br>
 <b>Selecteur {<br>
     propriétés: valeurs;<br>
 }</b><br>
@@ -51,8 +51,8 @@ Maintenant, nous allons voir quelques propriétés :<br>
 <li><b>color:</b> permet d'ajouter une couleur.</li>
 <li><b>font-size:</b> ce qui permet de changer la taille du texte.</li>
 <li><b>font-family:</b> va changer la police de votre texte.</li>
-<li><b>:</b></li>
-<li><b>:</b></li>
+<li><b>font-weight:</b> pour passer le texte en gras.</li>
+<li><b>font-align:</b> pour ajuster l'alignement du texte.</li>
 <li><b>:</b></li>
 <li><b>:</b></li>
 </ul>
@@ -61,10 +61,20 @@ Maintenant, nous allons voir quelques valeurs :<br>
 <ul>
 <li><b>px</b> correspond à une taille en pixel.</li>
 <li><b>em</b> correspond à une taille en % et 1em correspond donc à 100% de la taille initiale.</li>
-<li><b>font-family:</b> va changer la police de votre texte.</li>
-<li><b>:</b></li>
-<li><b>:</b></li>
-<li><b>:</b></li>
-<li><b>:</b></li>
 </ul>
+<br>
+Il existe une maniere pour imbriquer des style avec le meme nom de selecteur.<br>
+Pour cela on va exprimer les différents éléments qui le précède pour l'identifier par exemple:<br>
+<b>div div selecteur {<br>
+    propriétés: valeurs;<br>
+}<br>
+<br>
+De cette manière le style sera utiliser seul pour les éléments contenu dans une div, elle-même dans une div avant d'avoir notre selecteur.<br>
+<br>
+Vous pouvez aussi attribuer un style à tout les éléments sans exxeption avec *.<br>
+<b>* {<br>
+    propriétés: valeurs;<br>
+}<br>
+<br>
+</b>
 </p>
