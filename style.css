@@ -1,0 +1,10 @@
+/* .body {
+    background-image: url("images/code.png");
+} */
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    clear: both;
+}
