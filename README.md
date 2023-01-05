@@ -31,4 +31,40 @@ Après cela, vous devez indiquer qu'il sagit d'un fichier de style et le lien du
 Ce qui vous donnera :<br>
     <b>link rel="stylesheet" href="style.css"</b>
 <br>
+<br>
+Pour commencer dans votre fichier CSS, vous aurez des selecteurs qui vont contenir dans des acolades, des propriétées et des valeurs.
+<b>Selecteur {<br>
+    propriétés: valeurs;<br>
+}</b><br>
+<br>
+Vous trouverez surtout deux style de selecteurs, l'un avec un . avant le nom de l'élements et lautre sans, sous la forme suite :
+<br>
+<ul>
+<li><b>Selecteur {}</b></li>
+<li><b>.Selecteur {}</b></li>
+</ul>
+Lorsque vous indiquer directement le selecteur sans le . vous attriburez directement les propertiées et les valeurs que vous aurez mis à l'intérieurs dans le type du selecteur de votre page html.<br>
+Et dans le cas de l'ajouter du . dans .Seclecteur, le style sera appeler grace à l'element class="Selecteur" dans un élément de votre HTML<br>
+<br>
+Maintenant, nous allons voir quelques propriétés :<br>
+<ul>
+<li><b>color:</b> permet d'ajouter une couleur.</li>
+<li><b>font-size:</b> ce qui permet de changer la taille du texte.</li>
+<li><b>font-family:</b> va changer la police de votre texte.</li>
+<li><b>:</b></li>
+<li><b>:</b></li>
+<li><b>:</b></li>
+<li><b>:</b></li>
+</ul>
+<br>
+Maintenant, nous allons voir quelques valeurs :<br>
+<ul>
+<li><b>px</b> correspond à une taille en pixel.</li>
+<li><b>em</b> correspond à une taille en % et 1em correspond donc à 100% de la taille initiale.</li>
+<li><b>font-family:</b> va changer la police de votre texte.</li>
+<li><b>:</b></li>
+<li><b>:</b></li>
+<li><b>:</b></li>
+<li><b>:</b></li>
+</ul>
 </p>
