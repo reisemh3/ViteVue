@@ -53,8 +53,8 @@ Maintenant, nous allons voir quelques propriétés :<br>
 <li><b>font-family:</b> va changer la police de votre texte.</li>
 <li><b>font-weight:</b> pour passer le texte en gras.</li>
 <li><b>font-align:</b> pour ajuster l'alignement du texte.</li>
-<li><b>:</b></li>
-<li><b>:</b></li>
+<li><b>display:</b> change l'affichage.</li>
+<li><b>background-color:</b> ajouter une couleur d'arrière plan.</li>
 </ul>
 <br>
 Maintenant, nous allons voir quelques valeurs :<br>
@@ -73,6 +73,16 @@ De cette manière le style sera utiliser seul pour les éléments contenu dans u
 <br>
 Vous pouvez aussi attribuer un style à tout les éléments sans exxeption avec *.<br>
 <b>* {<br>
+    propriétés: valeurs;<br>
+}<br>
+<br>
+Vous pouvez aussi attribuer à l'aide d'un id avec #(nom de l'id="").<br>
+<b>#selecteur {<br>
+    propriétés: valeurs;<br>
+}<br>
+<br>
+Il existe aussi les selecteurs de pseudo classe avec le :.<br>
+<b>selecteur:link {<br>
     propriétés: valeurs;<br>
 }<br>
 <br>
